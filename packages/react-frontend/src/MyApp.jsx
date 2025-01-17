@@ -5,7 +5,7 @@ import Form from "./Form";
 
 function MyApp() {
     
-    const [characters, setCharacter] = useState([]);
+    const [characters, setCharacters] = useState([]);
 
     function removeOneCharacter(index) {
         const updated = characters.filter((character, i) => {
